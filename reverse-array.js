@@ -18,7 +18,12 @@ for (let i = 0; i < friends.length; i++) {
 const rev_friends_v3 = [];
 for (let i = friends.length - 1; i >= 0; i--) {
   const friend = friends[i];
-  console.log(friend);
+  //   console.log(friend);
   rev_friends_v3.push(friend);
 }
-console.log(rev_friends_v3);
+// console.log(rev_friends_v3);
+
+const statement = "I am a hard working person";
+const rev_statement = statement.split(" ").reverse().join(' ');
+console.log(statement);
+console.log(rev_statement);
